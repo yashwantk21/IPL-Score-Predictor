@@ -1,12 +1,33 @@
-# IPL-Score-Predictor
+# 🏏 IPL Score Predictor
 
-Predicting IPL scores accurately is a challenging task due to the dynamic nature of cricket and the numerous factors influencing the game's outcomes. Traditional machine learning algorithms, while useful, often fall short in capturing complex patterns and dependencies within large datasets. This is where deep learning techniques emerge as a powerful alternative, leveraging their ability to process and analyze vast amounts of data with intricate relationships. By training models on historical performance data of players and teams, deep learning can identify nuanced patterns and make precise predictions. It explores the application of machine learning and deep learning for IPL score prediction, highlighting the comparative advantages of deep learning models in delivering real-time, accurate results.
+This project focuses on predicting the final first-innings score in an IPL match using Machine Learning and Deep Learning techniques. It leverages historical IPL data and builds models to capture the underlying patterns based on match context like team, venue, overs, wickets, etc.
 
-Steps to run the project:
-1. Importing required libraries
-2. Loading the dataset
-3. Performing EDA
-4. Data Preprocessing
-5. Data Visualisation
-6. Define the Neural Network
-7. Interactive widget for prediction
+## 📌 Features
+
+- Predicts first innings final score
+- Uses historical IPL data
+- Includes ML and Deep Learning models
+- Interactive input for real-time predictions
+- Clean visualizations and data analysis
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- TensorFlow / Keras
+- ipywidgets (for UI)
+
+## 📊 Dataset Overview
+
+- ~18,000 match records
+- Includes batting team, bowling team, venue, runs, overs, wickets, and powerplay stats
+- Target: Final first innings score
+
+## ⚙️ Steps to Run
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
